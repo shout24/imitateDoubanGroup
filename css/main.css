@@ -1,0 +1,68 @@
+.global-nav {
+  background-color: #545652;;
+  color: #bbb;
+}
+
+.global-nav a {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.global-nav a:hover {
+  color: #fff;
+}
+
+.page-nav {
+  background-color: #f0f6f3;
+  padding: 20px 12px;
+}
+
+.page-nav .logo {
+  width: 130px;
+}
+
+.page-nav .link-group a {
+  color: #037b82;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 4px;
+  margin-left: 36px;
+}
+
+.page-nav .link-group a:hover {
+  color: #fff;
+  background-color: #037b82;
+}
+
+.page-nav .input-box {
+  font-size: 0;
+  position: relative;
+}
+
+.page-nav .input-box .search-input {
+  border: 0.5px solid #eee;
+  padding: 5px 8px;
+  width: 250px;
+  outline: 0;
+}
+
+.page-nav .input-box .search-input::placeholder {
+  color: #ccc;
+}
+
+.page-nav .input-box .search-btn {
+  background-image: url('https://img3.doubanio.com/f/shire/f71f15922ebd7c0ff0ea0e7a25577529efd8981a/pics/icon/bn_srh_1.png');
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 14px;
+  background-color: #fff;
+  border: 0;
+  position: absolute;
+  right: 6px;
+  top: 7px;
+  outline: 0;
+}
+
+.post {
+  color: #666;
+}
