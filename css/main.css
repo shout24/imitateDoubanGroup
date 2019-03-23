@@ -1,5 +1,5 @@
 .global-nav {
-  background-color: #545652;;
+  background-color: #545652;
   color: #bbb;
 }
 
@@ -63,6 +63,120 @@
   outline: 0;
 }
 
-.post {
+.head-title h1 {
+  font-weight: 500;
+  margin: 40px 0;
+  font-size: 25px;
+}
+
+.post-list {
   color: #666;
+}
+
+.post-list .post-item {
+  margin-bottom: 22px;
+}
+
+.post-list .post-item .like {
+  background-color: #fae9da;
+  color: #ca6445;
+  padding: 5px;
+  text-align: center;
+  width: 44px;
+  font-size: 12px;
+}
+
+.post-list .post-item .preview {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.post-list .post-item .preview .title {
+  color: #3377aa;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.post-list .post-item .preview .title a:hover,
+.post-list .post-item .preview .meta a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
+
+.post-list .post-item .preview .content {
+  background-color: #f9f9f9;
+  padding: 8px;
+}
+
+.post-list .post-item .preview .text {
+  font-size: 11px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 2;
+  color: #999;
+}
+
+.post-list .post-item .preview .meta {
+  font-size: 12px;
+  padding-bottom: 8px;
+  padding-top: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.post-list .post-item .preview .meta span:first-child {
+  margin-right: 8px;
+}
+
+.recomm-list > * {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.recomm-list .text {
+  padding-bottom: 8px;
+}
+
+.recomm-list .item {
+  padding: 8px;
+}
+
+.recomm-list .item .thumb {
+  width: 50px;
+  height: 50px;
+  margin-right: 12px;
+}
+
+.recomm-list .item .preview {
+  line-height: 2.1;
+}
+
+.recomm-list .item .title a:hover,
+.recomm-list .item .join-group a:hover {
+  color: #fff;
+  background-color: #3377aa;
+}
+
+.recomm-list .item .join-group a::before {
+  content: '+';
+}
+
+.footer .container {
+  border-top: 1px solid rgba(0, 0, 0, .1);
+  padding-top: 12px;
+}
+
+.footer {
+  color: #ccc;
+}
+
+.footer a {
+  color: #3377aa;
+}
+
+.footer .right {
+  float: right;
+}
+
+.footer .right a {
+  margin-right: 5px;
 }
